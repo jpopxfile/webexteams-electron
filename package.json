@@ -1,0 +1,22 @@
+{
+  "name": "webexteams-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpopxfile/webexteams-electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpopxfile/webexteams-electron/issues"
+  },
+  "homepage": "https://github.com/jpopxfile/webexteams-electron#readme",
+  "dependencies": {
+    "electron": "^8.2.0"
+  }
+}
