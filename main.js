@@ -13,7 +13,8 @@ function createWindow () {
       sandbox: true,
       nodeIntegration: false,
       disableBlinkFeatures: "Auxclick",
-      contextIsolation: true
+      contextIsolation: true,
+      devTools: false
     }
 
   })
@@ -39,7 +40,7 @@ function createWindow () {
 
   mainWindow.loadURL('https://teams.webex.com/spaces')
 
-  setTimeout(function(){console.log("reloading");mainWindow.reload();}, 3000);
+  setTimeout(function(){console.log("reloading");mainWindow.reload();}, 500);
 
   const checkIfUrlIsTrusted = async (evt, urlString) => {
     // Note: Links without target="_blank" will not go through this
